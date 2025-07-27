@@ -33,13 +33,16 @@ public class UserRequestDto {
 
 	@Getter
 	@AllArgsConstructor
+	@Schema(description = "로그인 요청")
 	public static class Login {
 
+		@Schema(description = "이메일", example = "test@email.com", required = true)
 		@NotBlank(message = "필수 입력 항목입니다.")
 		@Email(message = "올바른 이메일 형식이 아닙니다.")
 		@Size(max = 50, message = "이메일은 50자 이하여야 합니다.")
 		public String email;
 
+		@Schema(description = "비밀번호", example = "testPassword", required = true)
 		@NotBlank(message = "필수 입력 항목입니다.")
 		@Size(min = 8, max = 30, message = "비밀번호는 8자 이상 30자 이하여야 합니다.")
 		public String password;
