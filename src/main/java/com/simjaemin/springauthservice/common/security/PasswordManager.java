@@ -5,7 +5,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import com.simjaemin.springauthservice.common.exception.CustomException;
-import com.simjaemin.springauthservice.common.errorcode.ErrorCode;
+import com.simjaemin.springauthservice.common.response.enumcode.ErrorCode;
 
 @Component
 public class PasswordManager {

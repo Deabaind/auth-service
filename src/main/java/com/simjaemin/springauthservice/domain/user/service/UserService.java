@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.simjaemin.springauthservice.common.errorcode.ErrorCode;
+import com.simjaemin.springauthservice.common.response.enumcode.ErrorCode;
 import com.simjaemin.springauthservice.common.exception.CustomException;
 import com.simjaemin.springauthservice.common.security.JwtProvider;
 import com.simjaemin.springauthservice.common.security.PasswordManager;

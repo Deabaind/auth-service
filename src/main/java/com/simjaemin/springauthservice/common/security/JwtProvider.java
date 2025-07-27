@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import com.simjaemin.springauthservice.common.exception.CustomException;
-import com.simjaemin.springauthservice.common.errorcode.ErrorCode;
+import com.simjaemin.springauthservice.common.response.enumcode.ErrorCode;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;

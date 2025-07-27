@@ -11,7 +11,7 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import com.simjaemin.springauthservice.common.exception.CustomException;
-import com.simjaemin.springauthservice.common.errorcode.ErrorCode;
+import com.simjaemin.springauthservice.common.response.enumcode.ErrorCode;
 
 import io.jsonwebtoken.Claims;
 import jakarta.servlet.FilterChain;

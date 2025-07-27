@@ -1,6 +1,6 @@
 package com.simjaemin.springauthservice.common.exception;
 
-import com.simjaemin.springauthservice.common.errorcode.ErrorCode;
+import com.simjaemin.springauthservice.common.response.enumcode.ErrorCode;
 
 import lombok.Getter;
 
