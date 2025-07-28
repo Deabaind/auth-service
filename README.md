@@ -39,7 +39,7 @@ Auth-Service
 
 - - -
 ## :large_blue_diamond: API 명세서 & ERD 작성
-### [:memo: API 명세서](http://16.176.143.39:8080/swagger-ui/index.html)
+### [:memo: API 명세서](http://3.27.242.183:8080/swagger-ui/index.html)
 ### :memo: ERD
 ![](https://www.notion.so/image/attachment%3A50857b67-9d25-4d78-b86b-72e2436894a6%3Aimage.png?table=block&id=23d29343-d978-8080-a8d4-d4ff44a62368&spaceId=234c0de8-f981-4889-9307-1dd0a0805892&width=1420&userId=&cache=v2)
 
